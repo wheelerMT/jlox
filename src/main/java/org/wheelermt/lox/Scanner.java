@@ -1,4 +1,4 @@
-package org.wheelermt;
+package org.wheelermt.lox;
 
 import java.util.ArrayList;
 import java.util.HashMap;

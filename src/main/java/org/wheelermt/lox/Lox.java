@@ -1,4 +1,4 @@
-package org.wheelermt;
+package org.wheelermt.lox;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -45,7 +45,7 @@ public class Lox {
     }
 
 
-    private static void run(String source)  {
+    private static void run(String source) {
         Scanner scanner = new Scanner(source);
         List<Token> tokens = scanner.scanTokens();
 
@@ -54,7 +54,7 @@ public class Lox {
         }
     }
 
-    static void error (int line, String message) {
+    static void error(int line, String message) {
         report(line, "", message);
     }
 

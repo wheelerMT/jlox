@@ -1,4 +1,4 @@
-package org.wheelermt;
+package org.wheelermt.lox;
 
 public enum TokenType {
     // Single-character tokens.

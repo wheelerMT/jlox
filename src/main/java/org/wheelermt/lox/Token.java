@@ -1,4 +1,4 @@
-package org.wheelermt;
+package org.wheelermt.lox;
 
 public class Token {
     final TokenType type;
